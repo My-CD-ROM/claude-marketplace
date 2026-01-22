@@ -1,0 +1,8 @@
+{
+  "name": "hello-demo",
+  "version": "1.0.0",
+  "description": "Demo plugin for testing - says hello in a specific way",
+  "author": {
+    "name": "Demo"
+  }
+}

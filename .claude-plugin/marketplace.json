@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "demo-market",
+  "version": "1.0.0",
+  "description": "Demo marketplace for testing Claude Code plugin functionality",
+  "metadata": {
+    "description": "Demo marketplace for testing Claude Code plugin functionality"
+  },
+  "owner": {
+    "name": "Demo"
+  },
+  "plugins": [
+    {
+      "name": "hello-demo",
+      "description": "Demo plugin that greets users in a theatrical way - for testing plugin marketplace",
+      "version": "1.0.0",
+      "author": {
+        "name": "Demo"
+      },
+      "source": "./plugins/hello-demo",
+      "category": "testing"
+    }
+  ]
+}
